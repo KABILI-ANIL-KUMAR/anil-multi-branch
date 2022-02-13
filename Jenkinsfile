@@ -8,8 +8,4 @@ node('master')
 	{
           sh 'mvn package'
 	}
-     stage('Continuous Testing') 
-        {
-          sh 'echo "test success"'
-        }
 }
